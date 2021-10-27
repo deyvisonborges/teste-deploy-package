@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { BaseButton } from '@portal/common-components'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BaseButton variant="primary" >ola</BaseButton>
   </React.StrictMode>,
   document.getElementById('root')
 );
